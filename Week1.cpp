@@ -144,10 +144,10 @@ void challenge5(){
 }
 
 int main() {
-    //challenge1();
-    //challenge2();
-    //challenge3();
-    //challenge4();
+    challenge1();
+    challenge2();
+    challenge3();
+    challenge4();
     challenge5();
     return 0;
 }
