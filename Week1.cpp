@@ -5,6 +5,7 @@
 #include <cmath>
 #include <numeric>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
@@ -123,7 +124,7 @@ void challenge5(){
     string inputs;
     int num;
 
-    cout << "Please enter a series of integers separated by spaces! Press Enter when done: ";
+    cout << "\nPlease enter a series of integers separated by spaces! Press Enter when done: ";
     
     getline(cin >> ws, inputs); 
     stringstream ss(inputs);
